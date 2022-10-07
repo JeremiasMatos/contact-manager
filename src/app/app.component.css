@@ -1,0 +1,146 @@
+.container{
+    background-color: aqua;
+    width:100%;
+}
+
+.header{
+    background-color: crimson;
+    font-weight: bold;
+    font-size:large;
+    height: 50px;
+    width:100%;
+    color: #ffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.banner{
+    background-color:#FFCFD9;
+  
+
+}
+
+.banner .brand{
+   color:  #E7219c;
+   height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap:5px;
+}
+
+.banner .brand button{
+    
+    height: 25px;
+    width:4rem;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.banner .brand button .plus {
+    background-color:  #ffff;
+    color: #000000;
+    border-radius: 6px;
+    height: 0.9rem;
+    width: 0.8rem;
+}
+
+.description{
+    font-weight: lighter;
+}
+
+.input-section{
+  color:"#"
+
+}
+
+.input-section button{ 
+    height: 31px;
+    margin-left: 0.5rem;
+
+}
+
+.input-section input{ 
+    height: 25px;
+    width: 250px;
+}
+
+.main{
+    background-color:azure;
+
+   
+}
+
+.main .contact-section{
+    background-color:chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main .contact-section .contact-list-container{
+    background-color:coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width:800px;
+}
+
+.main .contact-section .contact-list-container .avatar{
+    background-color:red;
+    border-radius: 51px;
+    height: 7rem;
+    width: 7rem;
+
+    align-self: start;
+    justify-self: start;
+}
+
+.main .contact-section .contact-list-container .contact-data{
+    background-color:cornflowerblue;
+    display: flex;
+}
+
+.main .contact-section .contact-list-container .contact-data table thead{
+    display: flex;
+    flex-direction:column;
+}
+
+.main .contact-section .contact-list-container .contact-data table tbody  {
+    display: flex;
+    flex-direction:column;
+
+}
+
+.main .contact-section .contact-list-container .contact-data-action{
+    background-color:darkorange;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: 3px;
+}
+
+.footer{
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    font-weight: bold;
+    font-size:large;
+    height: 50px;
+    width: 100%;
+}
+
+.footer button{
+    height: 35px;
+    width: 100px;
+}
+
